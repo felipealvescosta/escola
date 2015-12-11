@@ -1,0 +1,196 @@
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.espaco{
+	height: 20px;
+}
+.espacotopo{
+	height: 25px;
+}
+.imgescola{
+	height: 150px;
+	margin-top: 10px;
+	padding-top: 20px;
+}.logo{
+	height: 150px;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+.sair{
+	margin-top: 30px;
+}
+.nome{
+	margin-top: 30px;
+	font-family: 'Bree', 'Serif';
+}
+
+.logoescola{
+	color: #467EB9;
+	margin-top: 25px;
+	font-family: 'Bree', 'Serif';
+}
+.logout{
+	height: 150px;
+	margin-top: 25px;
+	text-align: right;
+}
+.menu{
+	font-size: 15px;
+	font-style: normal;
+	border-right: 1px solid #F0EEEE;
+}
+.menulatescola{
+	font-size: 22px;
+	border-left: 1px solid #F0EEEE;
+}
+.slide{
+	height: 390px;
+	margin: 0;
+}
+.show_livro{
+	margin-left: 15px;
+}
+
+.noticiasEscola{
+	height:auto;
+}
+.enquete{
+	height: 100px;
+	border-left: 1px solid #F0EEEE;
+}
+.rodape{
+	height: 50px;
+	margin-top: 30px;
+	text-decoration: none;
+	text-align: center;
+}
+.login_espaco{
+	height: 400px;
+	padding-top: 10px;
+}
+/*   Estilo do menu dropdown   */
+/* CSSTerm.com Simple Horizontal DropDown CSS menu */
+
+.drop_menu {
+	background:#467EB9;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	height:40px;
+}
+.drop_menu li { 
+	float:left;
+ }
+.drop_menu li a {
+	padding:10px 20px;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	font:17px arial, verdana, sans-serif;
+}
+
+/* Submenu */
+.drop_menu ul {
+	position:absolute;
+	float: left;
+	left:-9999px;
+	z-index: 9999;
+	top:-9999px;
+	list-style-type:none;
+}
+.drop_menu li:hover { 
+	position:relative; 
+	background:#1665BA; 
+}
+.drop_menu li:hover ul {
+	left:0px;
+	top:40px;
+	background:#1665BA;
+	padding:0px;
+}
+
+.drop_menu li:hover ul li a {
+	padding:5px;
+	display:block;
+	width:220px;
+	text-indent:15px;
+	background-color:#1665BA;
+}
+.drop_menu li:hover ul li a:hover {
+ background:#467EB9; 
+}
+
+.corpoCad{
+	height: 400px;
+}
+
+/* Select do css*/
+/* The CSS */
+select {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}
+
+label {position:relative}
+label:after {
+    content:'<>';
+    font:11px "Consolas", monospace;
+    color:#aaa;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:8px; top:2px;
+    padding:0 0 2px;
+    border-bottom:1px solid #ddd;
+    position:absolute;
+    pointer-events:none;
+}
+label:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:20px;
+    background:#f8f8f8;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}	
+
+/*Imagens Pagina Ideal Jr*/
+.crescimento{
+	height: auto;
+	background-color: red;
+	padding: 0px;
+}
+
+.visu{
+	text-align: right;
+	color: gray;
+}
+
+
+
+	
